@@ -1,0 +1,31 @@
+{
+    "addPath": "",
+    "cameraPara": "assets/examples/Data/camera_para.dat",
+    "container": {
+        "create": false,
+        "containerName": "app",
+        "canvasName": "arnft-canvas"
+    },
+    "videoSettings": {
+        "width": {
+            "min": 640,
+            "max": 1280
+        },
+        "height": {
+            "min": 480,
+            "max": 1080
+        },
+        "facingMode": "environment"
+    },
+    "loading": {
+        "create": true,
+        "logo": {
+            "src": "assets/Data/arNFT-logo.gif",
+            "alt": "arNFT.js logo"
+        },
+        "loadingMessage": "Loading, please wait..."
+    },
+    "stats": {
+        "createHtml": false
+    }
+}
