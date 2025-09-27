@@ -1,9 +1,9 @@
 const cacheName = "Aquamarine Project-Home Page-1.0.0";
 const contentToCache = [
-    "Build/Web.loader.js",
-    "Build/Web.framework.js.unityweb",
-    "Build/Web.data.unityweb",
-    "Build/Web.wasm.unityweb",
+    "Build/GitHubPages.loader.js",
+    "Build/GitHubPages.framework.js",
+    "Build/GitHubPages.data",
+    "Build/GitHubPages.wasm",
     "TemplateData/style.css"
 
 ];
