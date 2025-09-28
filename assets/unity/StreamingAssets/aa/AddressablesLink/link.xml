@@ -1,4 +1,9 @@
 <linker>
+  <assembly fullname="ArcadeVehiclePhysics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ArcadeVP.ArcadeVehicleController" preserve="all" />
+    <type fullname="ArcadeVP.InputManager_ArcadeVP" preserve="all" />
+    <type fullname="ArcadeVP.SkidMarks" preserve="all" />
+  </assembly>
   <assembly fullname="MoreMountains.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MoreMountains.Feedbacks.MMF_Player" preserve="all" />
     <type fullname="MoreMountains.Feedbacks.MMF_CanvasGroup" preserve="nothing" serialized="true" />
@@ -7,12 +12,27 @@
   </assembly>
   <assembly fullname="Project.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Project.FaceToCameraBehaviour" preserve="all" />
+    <type fullname="Project.FallBehaviour" preserve="all" />
     <type fullname="Project.InteractableBuildingBehaviour" preserve="all" />
+    <type fullname="Project.InteractableBuildingsBoardBehaviour" preserve="all" />
     <type fullname="Project.PopupUiBehaviour" preserve="all" />
+    <type fullname="Project.SceneGridBehaviour" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.Cinemachine.CinemachineCamera" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachinePositionComposer" preserve="all" />
+    <type fullname="Unity.Cinemachine.CameraTarget" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.LensSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.LensSettings/PhysicalSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.LookaheadSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.PrioritySettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.ScreenComposerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.ScreenComposerSettings/DeadZoneSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.ScreenComposerSettings/HardLimitSettings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -31,6 +51,10 @@
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ComputeShader" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
@@ -43,14 +67,25 @@
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Grid" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.HingeJoint" preserve="all" />
+    <type fullname="UnityEngine.PhysicsMaterial" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
