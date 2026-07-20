@@ -1,1 +1,5 @@
-!assets/unity/Build
+!demo/assets/unity/Build
+/Todo
+
+# Portfolio React sources — build output is committed at repo root instead
+/portfolio
